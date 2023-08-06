@@ -12,7 +12,7 @@ public class WeatherListener {
     public WeatherListener() {
         MinecraftForge.EVENT_BUS.register(this);
     }
-//dupa
+
     @SubscribeEvent
     public void onServerTick(TickEvent.LevelTickEvent event) {
         if(event.level.isRaining()) {
