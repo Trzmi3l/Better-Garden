@@ -9,8 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 public class WeatherListener {
 
-    public WeatherListener() {
-        MinecraftForge.EVENT_BUS.register(this);
+    public WeatherListener() {MinecraftForge.EVENT_BUS.register(this);
     }
 
     @SubscribeEvent
